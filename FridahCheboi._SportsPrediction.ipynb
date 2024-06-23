@@ -2,7 +2,7 @@
  "cells": [
   {
    "cell_type": "code",
-   "execution_count": 1,
+   "execution_count": 3,
    "id": "1d8e646a-32d6-4433-b3db-f133d7eb2841",
    "metadata": {},
    "outputs": [],
@@ -14,7 +14,7 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 3,
+   "execution_count": 5,
    "id": "828bb42a-f368-48b0-954c-b88231db2272",
    "metadata": {},
    "outputs": [
@@ -22,7 +22,7 @@
      "name": "stderr",
      "output_type": "stream",
      "text": [
-      "C:\\Users\\user\\AppData\\Local\\Temp\\ipykernel_11708\\1599229442.py:2: DtypeWarning: Columns (108) have mixed types. Specify dtype option on import or set low_memory=False.\n",
+      "C:\\Users\\user\\AppData\\Local\\Temp\\ipykernel_27528\\1599229442.py:2: DtypeWarning: Columns (108) have mixed types. Specify dtype option on import or set low_memory=False.\n",
       "  data1 = pd.read_csv('male_players (legacy).csv')\n"
      ]
     }
@@ -34,7 +34,7 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 5,
+   "execution_count": 6,
    "id": "c02791d4-cf84-416c-a256-a7f7f248afb6",
    "metadata": {},
    "outputs": [
@@ -84,124 +84,124 @@
        "  </thead>\n",
        "  <tbody>\n",
        "    <tr>\n",
-       "      <th>62910</th>\n",
-       "      <td>229319</td>\n",
-       "      <td>/player/229319/jhonder-cadiz/180002</td>\n",
-       "      <td>18</td>\n",
+       "      <th>70141</th>\n",
+       "      <td>197136</td>\n",
+       "      <td>/player/197136/karim-ansarifard/190002</td>\n",
+       "      <td>19</td>\n",
        "      <td>2</td>\n",
-       "      <td>2017-09-18</td>\n",
-       "      <td>J. Cádiz</td>\n",
-       "      <td>Jhonder Leonel Cádiz Fernández</td>\n",
+       "      <td>2018-08-21</td>\n",
+       "      <td>K. Ansarifard</td>\n",
+       "      <td>Karim Ansarifard</td>\n",
        "      <td>ST</td>\n",
-       "      <td>63</td>\n",
-       "      <td>71</td>\n",
-       "      <td>...</td>\n",
-       "      <td>42+1</td>\n",
-       "      <td>42+1</td>\n",
-       "      <td>41+1</td>\n",
-       "      <td>40+1</td>\n",
-       "      <td>42+1</td>\n",
-       "      <td>42+1</td>\n",
-       "      <td>42+1</td>\n",
-       "      <td>40+1</td>\n",
-       "      <td>14+1</td>\n",
-       "      <td>https://cdn.sofifa.net/players/229/319/18_120.png</td>\n",
-       "    </tr>\n",
-       "    <tr>\n",
-       "      <th>3064</th>\n",
-       "      <td>187415</td>\n",
-       "      <td>/player/187415/vladimir-granat/150002</td>\n",
-       "      <td>15</td>\n",
-       "      <td>2</td>\n",
-       "      <td>2014-09-18</td>\n",
-       "      <td>V. Granat</td>\n",
-       "      <td>Vladimir Granat</td>\n",
-       "      <td>CB, LB</td>\n",
-       "      <td>70</td>\n",
-       "      <td>73</td>\n",
-       "      <td>...</td>\n",
-       "      <td>66</td>\n",
-       "      <td>66</td>\n",
-       "      <td>65</td>\n",
-       "      <td>68</td>\n",
-       "      <td>70</td>\n",
-       "      <td>70</td>\n",
-       "      <td>70</td>\n",
-       "      <td>68</td>\n",
-       "      <td>14</td>\n",
-       "      <td>https://cdn.sofifa.net/players/187/415/15_120.png</td>\n",
-       "    </tr>\n",
-       "    <tr>\n",
-       "      <th>38694</th>\n",
-       "      <td>192790</td>\n",
-       "      <td>/player/192790/javier-magro-matilla/170002</td>\n",
-       "      <td>17</td>\n",
-       "      <td>2</td>\n",
-       "      <td>2016-09-20</td>\n",
-       "      <td>Matilla</td>\n",
-       "      <td>Javier Magro Matilla</td>\n",
-       "      <td>CM, CDM, CAM</td>\n",
-       "      <td>69</td>\n",
-       "      <td>69</td>\n",
-       "      <td>...</td>\n",
-       "      <td>64+1</td>\n",
-       "      <td>64+1</td>\n",
-       "      <td>62+1</td>\n",
-       "      <td>60+1</td>\n",
-       "      <td>59+1</td>\n",
-       "      <td>59+1</td>\n",
-       "      <td>59+1</td>\n",
-       "      <td>60+1</td>\n",
-       "      <td>17+1</td>\n",
-       "      <td>https://cdn.sofifa.net/players/192/790/17_120.png</td>\n",
-       "    </tr>\n",
-       "    <tr>\n",
-       "      <th>48679</th>\n",
-       "      <td>189625</td>\n",
-       "      <td>/player/189625/jamie-turley/170002</td>\n",
-       "      <td>17</td>\n",
-       "      <td>2</td>\n",
-       "      <td>2016-09-20</td>\n",
-       "      <td>J. Turley</td>\n",
-       "      <td>Jamie Lee Peter Turley</td>\n",
-       "      <td>CB, RB</td>\n",
-       "      <td>56</td>\n",
-       "      <td>57</td>\n",
-       "      <td>...</td>\n",
-       "      <td>51+1</td>\n",
-       "      <td>51+1</td>\n",
-       "      <td>51+1</td>\n",
-       "      <td>52+1</td>\n",
-       "      <td>55+1</td>\n",
-       "      <td>55+1</td>\n",
-       "      <td>55+1</td>\n",
-       "      <td>52+1</td>\n",
-       "      <td>19+1</td>\n",
-       "      <td>https://cdn.sofifa.net/players/189/625/17_120.png</td>\n",
-       "    </tr>\n",
-       "    <tr>\n",
-       "      <th>34723</th>\n",
-       "      <td>191688</td>\n",
-       "      <td>/player/191688/alberto-tomas-botia-rabasco/170002</td>\n",
-       "      <td>17</td>\n",
-       "      <td>2</td>\n",
-       "      <td>2016-09-20</td>\n",
-       "      <td>Botía</td>\n",
-       "      <td>Alberto Tomás Botía Rabasco</td>\n",
-       "      <td>CB</td>\n",
        "      <td>75</td>\n",
-       "      <td>76</td>\n",
+       "      <td>75</td>\n",
        "      <td>...</td>\n",
-       "      <td>68+1</td>\n",
-       "      <td>68+1</td>\n",
-       "      <td>64+1</td>\n",
-       "      <td>66+1</td>\n",
-       "      <td>74+1</td>\n",
-       "      <td>74+1</td>\n",
-       "      <td>74+1</td>\n",
-       "      <td>66+1</td>\n",
+       "      <td>55+1</td>\n",
+       "      <td>55+1</td>\n",
+       "      <td>59+1</td>\n",
+       "      <td>57+1</td>\n",
+       "      <td>54+1</td>\n",
+       "      <td>54+1</td>\n",
+       "      <td>54+1</td>\n",
+       "      <td>57+1</td>\n",
+       "      <td>19+1</td>\n",
+       "      <td>https://cdn.sofifa.net/players/197/136/19_120.png</td>\n",
+       "    </tr>\n",
+       "    <tr>\n",
+       "      <th>155556</th>\n",
+       "      <td>247741</td>\n",
+       "      <td>/player/247741/anthony-glennon/230002</td>\n",
+       "      <td>23</td>\n",
+       "      <td>2</td>\n",
+       "      <td>2022-09-26</td>\n",
+       "      <td>A. Glennon</td>\n",
+       "      <td>Anthony Driscoll-Glennon</td>\n",
+       "      <td>LB, LWB</td>\n",
+       "      <td>63</td>\n",
+       "      <td>67</td>\n",
+       "      <td>...</td>\n",
+       "      <td>58+2</td>\n",
+       "      <td>58+2</td>\n",
+       "      <td>61+2</td>\n",
+       "      <td>61+2</td>\n",
+       "      <td>58+2</td>\n",
+       "      <td>58+2</td>\n",
+       "      <td>58+2</td>\n",
+       "      <td>61+2</td>\n",
+       "      <td>14+2</td>\n",
+       "      <td>https://cdn.sofifa.net/players/247/741/23_120.png</td>\n",
+       "    </tr>\n",
+       "    <tr>\n",
+       "      <th>79309</th>\n",
+       "      <td>190169</td>\n",
+       "      <td>/player/190169/dennis-telgenkamp/190002</td>\n",
+       "      <td>19</td>\n",
+       "      <td>2</td>\n",
+       "      <td>2018-08-21</td>\n",
+       "      <td>D. Telgenkamp</td>\n",
+       "      <td>Dennis Telgenkamp</td>\n",
+       "      <td>GK</td>\n",
+       "      <td>64</td>\n",
+       "      <td>64</td>\n",
+       "      <td>...</td>\n",
+       "      <td>22+1</td>\n",
+       "      <td>22+1</td>\n",
+       "      <td>21+1</td>\n",
+       "      <td>20+1</td>\n",
+       "      <td>22+1</td>\n",
+       "      <td>22+1</td>\n",
+       "      <td>22+1</td>\n",
+       "      <td>20+1</td>\n",
+       "      <td>63+1</td>\n",
+       "      <td>https://cdn.sofifa.net/players/190/169/19_120.png</td>\n",
+       "    </tr>\n",
+       "    <tr>\n",
+       "      <th>23550</th>\n",
+       "      <td>172297</td>\n",
+       "      <td>/player/172297/christian-kinkela/160002</td>\n",
+       "      <td>16</td>\n",
+       "      <td>2</td>\n",
+       "      <td>2015-09-21</td>\n",
+       "      <td>C. Kinkela</td>\n",
+       "      <td>Christian Fuanda Luzolo Kinkela</td>\n",
+       "      <td>RW, RM, CAM, ST</td>\n",
+       "      <td>66</td>\n",
+       "      <td>66</td>\n",
+       "      <td>...</td>\n",
+       "      <td>49</td>\n",
+       "      <td>49</td>\n",
+       "      <td>53</td>\n",
+       "      <td>50</td>\n",
+       "      <td>43</td>\n",
+       "      <td>43</td>\n",
+       "      <td>43</td>\n",
+       "      <td>50</td>\n",
+       "      <td>18</td>\n",
+       "      <td>https://cdn.sofifa.net/players/172/297/16_120.png</td>\n",
+       "    </tr>\n",
+       "    <tr>\n",
+       "      <th>44380</th>\n",
+       "      <td>236258</td>\n",
+       "      <td>/player/236258/nilson-loyola/170002</td>\n",
+       "      <td>17</td>\n",
+       "      <td>2</td>\n",
+       "      <td>2016-09-20</td>\n",
+       "      <td>N. Loyola</td>\n",
+       "      <td>Nilson Evair Loyola Morales</td>\n",
+       "      <td>LM</td>\n",
+       "      <td>64</td>\n",
+       "      <td>68</td>\n",
+       "      <td>...</td>\n",
+       "      <td>54+1</td>\n",
+       "      <td>54+1</td>\n",
+       "      <td>58+1</td>\n",
+       "      <td>55+1</td>\n",
+       "      <td>46+1</td>\n",
+       "      <td>46+1</td>\n",
+       "      <td>46+1</td>\n",
+       "      <td>55+1</td>\n",
        "      <td>16+1</td>\n",
-       "      <td>https://cdn.sofifa.net/players/191/688/17_120.png</td>\n",
+       "      <td>https://cdn.sofifa.net/players/236/258/17_120.png</td>\n",
        "    </tr>\n",
        "  </tbody>\n",
        "</table>\n",
@@ -209,45 +209,45 @@
        "</div>"
       ],
       "text/plain": [
-       "       player_id                                         player_url  \\\n",
-       "62910     229319                /player/229319/jhonder-cadiz/180002   \n",
-       "3064      187415              /player/187415/vladimir-granat/150002   \n",
-       "38694     192790         /player/192790/javier-magro-matilla/170002   \n",
-       "48679     189625                 /player/189625/jamie-turley/170002   \n",
-       "34723     191688  /player/191688/alberto-tomas-botia-rabasco/170002   \n",
+       "        player_id                               player_url  fifa_version  \\\n",
+       "70141      197136   /player/197136/karim-ansarifard/190002            19   \n",
+       "155556     247741    /player/247741/anthony-glennon/230002            23   \n",
+       "79309      190169  /player/190169/dennis-telgenkamp/190002            19   \n",
+       "23550      172297  /player/172297/christian-kinkela/160002            16   \n",
+       "44380      236258      /player/236258/nilson-loyola/170002            17   \n",
        "\n",
-       "       fifa_version  fifa_update fifa_update_date short_name  \\\n",
-       "62910            18            2       2017-09-18   J. Cádiz   \n",
-       "3064             15            2       2014-09-18  V. Granat   \n",
-       "38694            17            2       2016-09-20    Matilla   \n",
-       "48679            17            2       2016-09-20  J. Turley   \n",
-       "34723            17            2       2016-09-20      Botía   \n",
+       "        fifa_update fifa_update_date     short_name  \\\n",
+       "70141             2       2018-08-21  K. Ansarifard   \n",
+       "155556            2       2022-09-26     A. Glennon   \n",
+       "79309             2       2018-08-21  D. Telgenkamp   \n",
+       "23550             2       2015-09-21     C. Kinkela   \n",
+       "44380             2       2016-09-20      N. Loyola   \n",
        "\n",
-       "                            long_name player_positions  overall  potential  \\\n",
-       "62910  Jhonder Leonel Cádiz Fernández               ST       63         71   \n",
-       "3064                  Vladimir Granat           CB, LB       70         73   \n",
-       "38694            Javier Magro Matilla     CM, CDM, CAM       69         69   \n",
-       "48679          Jamie Lee Peter Turley           CB, RB       56         57   \n",
-       "34723     Alberto Tomás Botía Rabasco               CB       75         76   \n",
+       "                              long_name player_positions  overall  potential  \\\n",
+       "70141                  Karim Ansarifard               ST       75         75   \n",
+       "155556         Anthony Driscoll-Glennon          LB, LWB       63         67   \n",
+       "79309                 Dennis Telgenkamp               GK       64         64   \n",
+       "23550   Christian Fuanda Luzolo Kinkela  RW, RM, CAM, ST       66         66   \n",
+       "44380       Nilson Evair Loyola Morales               LM       64         68   \n",
        "\n",
-       "       ...   cdm   rdm   rwb    lb   lcb    cb   rcb    rb    gk  \\\n",
-       "62910  ...  42+1  42+1  41+1  40+1  42+1  42+1  42+1  40+1  14+1   \n",
-       "3064   ...    66    66    65    68    70    70    70    68    14   \n",
-       "38694  ...  64+1  64+1  62+1  60+1  59+1  59+1  59+1  60+1  17+1   \n",
-       "48679  ...  51+1  51+1  51+1  52+1  55+1  55+1  55+1  52+1  19+1   \n",
-       "34723  ...  68+1  68+1  64+1  66+1  74+1  74+1  74+1  66+1  16+1   \n",
+       "        ...   cdm   rdm   rwb    lb   lcb    cb   rcb    rb    gk  \\\n",
+       "70141   ...  55+1  55+1  59+1  57+1  54+1  54+1  54+1  57+1  19+1   \n",
+       "155556  ...  58+2  58+2  61+2  61+2  58+2  58+2  58+2  61+2  14+2   \n",
+       "79309   ...  22+1  22+1  21+1  20+1  22+1  22+1  22+1  20+1  63+1   \n",
+       "23550   ...    49    49    53    50    43    43    43    50    18   \n",
+       "44380   ...  54+1  54+1  58+1  55+1  46+1  46+1  46+1  55+1  16+1   \n",
        "\n",
-       "                                         player_face_url  \n",
-       "62910  https://cdn.sofifa.net/players/229/319/18_120.png  \n",
-       "3064   https://cdn.sofifa.net/players/187/415/15_120.png  \n",
-       "38694  https://cdn.sofifa.net/players/192/790/17_120.png  \n",
-       "48679  https://cdn.sofifa.net/players/189/625/17_120.png  \n",
-       "34723  https://cdn.sofifa.net/players/191/688/17_120.png  \n",
+       "                                          player_face_url  \n",
+       "70141   https://cdn.sofifa.net/players/197/136/19_120.png  \n",
+       "155556  https://cdn.sofifa.net/players/247/741/23_120.png  \n",
+       "79309   https://cdn.sofifa.net/players/190/169/19_120.png  \n",
+       "23550   https://cdn.sofifa.net/players/172/297/16_120.png  \n",
+       "44380   https://cdn.sofifa.net/players/236/258/17_120.png  \n",
        "\n",
        "[5 rows x 110 columns]"
       ]
      },
-     "execution_count": 5,
+     "execution_count": 6,
      "metadata": {},
      "output_type": "execute_result"
     }
@@ -258,7 +258,7 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 7,
+   "execution_count": 9,
    "id": "2b9cce04-1b3e-430d-8bfb-e0484fdb9174",
    "metadata": {},
    "outputs": [
@@ -578,7 +578,7 @@
        "[8 rows x 63 columns]"
       ]
      },
-     "execution_count": 7,
+     "execution_count": 9,
      "metadata": {},
      "output_type": "execute_result"
     }
@@ -713,7 +713,7 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 12,
+   "execution_count": 13,
    "id": "2d5e444b-e54e-452f-ab13-05a606819c5e",
    "metadata": {},
    "outputs": [
@@ -727,7 +727,7 @@
        "      dtype='object')"
       ]
      },
-     "execution_count": 12,
+     "execution_count": 13,
      "metadata": {},
      "output_type": "execute_result"
     }
@@ -762,7 +762,7 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 15,
+   "execution_count": 17,
    "id": "77de7d73-d7c5-4a88-a8f5-bb3aa302fbd4",
    "metadata": {},
    "outputs": [],
@@ -775,7 +775,7 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 16,
+   "execution_count": 19,
    "id": "511c96ea-b39a-444d-ba14-3658ecd34f53",
    "metadata": {},
    "outputs": [],
@@ -787,7 +787,7 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 17,
+   "execution_count": 21,
    "id": "cf671da5-9d4b-4ea4-a2c5-c2193110c4ca",
    "metadata": {},
    "outputs": [
@@ -797,10 +797,8 @@
      "text": [
       "Cross Validation scores: [0.91436319 0.91301067 0.91505416 0.91520388 0.91348317]\n",
       "Test Score (R-Squared): 0.9146502313865525\n",
-      "MSE: 4.230232285930747\n",
       "MAE: 1.5845008142640091\n",
-      "RMSE: 1.258769563607259\n",
-      "Size of prediction: 32317\n"
+      "RMSE: 1.258769563607259\n"
      ]
     }
    ],
@@ -825,7 +823,7 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 18,
+   "execution_count": 23,
    "id": "8e104d7e-567e-40b0-8199-921f40764018",
    "metadata": {},
    "outputs": [
@@ -835,10 +833,8 @@
      "text": [
       "Cross-validation R^2 scores: [0.98446791 0.98419669 0.98476318 0.98435298 0.98403771]\n",
       "Test Score (R-Squared): 0.9845937047550514\n",
-      "MSE: 0.7635897391465792\n",
       "MAE: 0.5188928427762479\n",
-      "RMSE: 0.7203421706218843\n",
-      "Size of prediction: 32317\n"
+      "RMSE: 0.7203421706218843\n"
      ]
     }
    ],
@@ -864,7 +860,7 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 19,
+   "execution_count": 24,
    "id": "f97e1347-1dae-491a-b12f-164bfaf0166a",
    "metadata": {},
    "outputs": [
@@ -874,10 +870,8 @@
      "text": [
       "Cross-validation R^2 scores: [0.97058542 0.97107558 0.97182336 0.97109278 0.97087837]\n",
       "Test Score (R-Squared): 0.9706366068068414\n",
-      "MSE: 1.455352204558968\n",
       "MAE: 0.9057677128089862\n",
-      "RMSE: 0.951718294879838\n",
-      "Size of prediction: 32317\n"
+      "RMSE: 0.951718294879838\n"
      ]
     }
    ],
@@ -897,14 +891,14 @@
     "y_pred = model3.predict(X_test)\n",
     "\n",
     "# Check and print perfomance of the regression model\n",
-    "print(f'Test Score (R-Squared): {fine_tuned_model3.score(X_test, y_test)}')\n",
+    "print(f'Test Score (R-Squared): {model3.score(X_test, y_test)}')\n",
     "print(f'MAE: {mean_absolute_error(y_test, y_pred)}')\n",
     "print(f'RMSE: {np.sqrt(mean_absolute_error(y_test, y_pred))}')"
    ]
   },
   {
    "cell_type": "code",
-   "execution_count": 20,
+   "execution_count": 43,
    "id": "538453ce-6896-4d0f-9b81-a71b7c80037a",
    "metadata": {},
    "outputs": [],
@@ -914,7 +908,7 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 21,
+   "execution_count": 39,
    "id": "995f30f6-6053-4281-bf4e-6ec1ed0182de",
    "metadata": {},
    "outputs": [],
@@ -924,7 +918,7 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 22,
+   "execution_count": 41,
    "id": "b243c603-41bd-4cf7-b65e-748f639d3266",
    "metadata": {},
    "outputs": [
@@ -933,10 +927,8 @@
      "output_type": "stream",
      "text": [
       "Test Score (R-Squared): 0.9707848900216414\n",
-      "MSE: 1.448002771128757\n",
       "MAE: 0.903744734723877\n",
-      "RMSE: 0.9506548978067051\n",
-      "Size of prediction: 32317\n"
+      "RMSE: 0.9506548978067051\n"
      ]
     }
    ],
@@ -952,7 +944,7 @@
     "y_pred = model4.predict(X_test)\n",
     "\n",
     "# Check and print perfomance of the regression model\n",
-    "print(f'Test Score (R-Squared): {fine_tuned_model4.score(X_test, y_test)}')\n",
+    "print(f'Test Score (R-Squared): {model4.score(X_test, y_test)}')\n",
     "print(f'MAE: {mean_absolute_error(y_test, y_pred)}')\n",
     "print(f'RMSE: {np.sqrt(mean_absolute_error(y_test, y_pred))}')"
    ]
@@ -975,7 +967,7 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 40,
+   "execution_count": 27,
    "id": "e1395dbb-03d9-4879-94a1-dab37d5c75d1",
    "metadata": {},
    "outputs": [],
@@ -991,7 +983,7 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 42,
+   "execution_count": 29,
    "id": "3e48afeb-e231-4983-8dc9-f603ecc030e0",
    "metadata": {},
    "outputs": [],
@@ -1001,7 +993,7 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 46,
+   "execution_count": 43,
    "id": "76aa0ca0-784b-418a-828a-e6125ee5ee80",
    "metadata": {},
    "outputs": [
@@ -1011,12 +1003,12 @@
      "text": [
       "Fitting 3 folds for each of 2 candidates, totalling 6 fits\n",
       "Linear Regression - Best parameters found:  {'fit_intercept': True}\n",
-      "Fitting 3 folds for each of 12 candidates, totalling 36 fits\n",
-      "Random Forest best parameters found:  {'max_depth': 20, 'min_samples_split': 2, 'n_estimators': 200}\n",
-      "Fitting 3 folds for each of 32 candidates, totalling 96 fits\n",
-      "Gradient Boosting best parameters found:  {'learning_rate': 0.1, 'max_depth': 5, 'min_samples_leaf': 1, 'min_samples_split': 5, 'n_estimators': 200}\n",
-      "Fitting 3 folds for each of 32 candidates, totalling 96 fits\n",
-      "XGBoost best parameters found:  {'colsample_bytree': 1.0, 'learning_rate': 0.1, 'max_depth': 5, 'n_estimators': 200, 'subsample': 0.8}\n"
+      "Fitting 3 folds for each of 8 candidates, totalling 24 fits\n",
+      "Random Forest best parameters found:  {'max_depth': 30, 'min_samples_split': 2, 'n_estimators': 200}\n",
+      "Fitting 3 folds for each of 8 candidates, totalling 24 fits\n",
+      "Gradient Boosting best parameters found:  {'learning_rate': 0.1, 'max_depth': 5, 'n_estimators': 200}\n",
+      "Fitting 3 folds for each of 8 candidates, totalling 24 fits\n",
+      "XGBoost best parameters found:  {'learning_rate': 0.1, 'max_depth': 5, 'n_estimators': 200}\n"
      ]
     }
    ],
@@ -1036,7 +1028,7 @@
     "# Random Forest Regressor\n",
     "param_grid2 = {\n",
     "    'n_estimators': [100, 200],\n",
-    "    'max_depth': [10, 20, 30],\n",
+    "    'max_depth': [20, 30],\n",
     "    'min_samples_split': [2, 5]\n",
     "}\n",
     "\n",
@@ -1052,8 +1044,6 @@
     "    'n_estimators': [100, 200],\n",
     "    'learning_rate': [0.1, 0.05],\n",
     "    'max_depth': [3, 5],\n",
-    "    'min_samples_split': [2, 5],\n",
-    "    'min_samples_leaf': [1, 2]\n",
     "}\n",
     "\n",
     "grid_search3 = GridSearchCV(estimator=model3, param_grid=param_grid3, \n",
@@ -1067,9 +1057,7 @@
     "param_grid4 = {\n",
     "    'n_estimators': [100, 200],\n",
     "    'learning_rate': [0.1, 0.05],\n",
-    "    'max_depth': [3, 5],\n",
-    "    'subsample': [0.8, 1.0],\n",
-    "    'colsample_bytree': [0.8, 1.0]\n",
+    "    'max_depth': [3, 5]\n",
     "}\n",
     "\n",
     "grid_search4 = GridSearchCV(estimator=model4, param_grid=param_grid4, \n",
@@ -1090,7 +1078,7 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 48,
+   "execution_count": 45,
    "id": "1bd7cb33-7ccd-4056-8ee0-7e1de869d9a2",
    "metadata": {},
    "outputs": [
@@ -1098,7 +1086,7 @@
      "name": "stderr",
      "output_type": "stream",
      "text": [
-      "C:\\Users\\user\\AppData\\Local\\Temp\\ipykernel_11708\\3464647996.py:1: DtypeWarning: Columns (25,108) have mixed types. Specify dtype option on import or set low_memory=False.\n",
+      "C:\\Users\\user\\AppData\\Local\\Temp\\ipykernel_27528\\3464647996.py:1: DtypeWarning: Columns (25,108) have mixed types. Specify dtype option on import or set low_memory=False.\n",
       "  data2 = pd.read_csv('players_22.csv')\n"
      ]
     }
@@ -1109,7 +1097,7 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 50,
+   "execution_count": 47,
    "id": "cc1fe796-7013-4062-9318-cdb617fc514d",
    "metadata": {},
    "outputs": [
@@ -1127,7 +1115,7 @@
        "(19239, 15)"
       ]
      },
-     "execution_count": 50,
+     "execution_count": 47,
      "metadata": {},
      "output_type": "execute_result"
     }
@@ -1139,7 +1127,7 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 52,
+   "execution_count": 48,
    "id": "9421e6c8-51a0-45d7-a1df-9d2fbc3e2ad5",
    "metadata": {},
    "outputs": [],
@@ -1149,7 +1137,7 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 54,
+   "execution_count": 49,
    "id": "fefa2325-5eae-4127-9ee1-2f8374936ed7",
    "metadata": {},
    "outputs": [
@@ -1176,7 +1164,7 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 66,
+   "execution_count": 50,
    "id": "0d93090c-d3d1-488d-b410-c545402718fa",
    "metadata": {},
    "outputs": [
@@ -1184,9 +1172,9 @@
      "name": "stdout",
      "output_type": "stream",
      "text": [
-      "Test Score (R-Squared): 0.9774189493920152\n",
-      "MAE: 0.5837324820681679\n",
-      "RMSE: 0.7640238753260057\n"
+      "Test Score (R-Squared): 0.9774743984375678\n",
+      "MAE: 0.5826611226611228\n",
+      "RMSE: 0.763322423790316\n"
      ]
     }
    ],
@@ -1203,7 +1191,7 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 58,
+   "execution_count": 51,
    "id": "7fa490a9-9a60-4ef1-a37b-6dcef818d175",
    "metadata": {},
    "outputs": [
@@ -1211,9 +1199,9 @@
      "name": "stdout",
      "output_type": "stream",
      "text": [
-      "Test Score (R-Squared): 0.9765830809165281\n",
-      "MAE: 0.7176724691095786\n",
-      "RMSE: 0.8471555164841805\n"
+      "Test Score (R-Squared): 0.976464883307854\n",
+      "MAE: 0.7213701192885016\n",
+      "RMSE: 0.8493351042365443\n"
      ]
     }
    ],
@@ -1230,7 +1218,7 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 64,
+   "execution_count": 52,
    "id": "480945c8-4297-41e8-90d5-e2b5f7eb1daf",
    "metadata": {},
    "outputs": [
@@ -1238,11 +1226,9 @@
      "name": "stdout",
      "output_type": "stream",
      "text": [
-      "Test Score (R-Squared): 0.976526039905356\n",
-      "MSE: 1.098537380771777\n",
-      "MAE: 0.7157000870813699\n",
-      "RMSE: 0.8459905951494792\n",
-      "Size of prediction: 3848\n"
+      "Test Score (R-Squared): 0.9760807207646207\n",
+      "MAE: 0.7254822774637266\n",
+      "RMSE: 0.8517524742926942\n"
      ]
     }
    ],
@@ -1253,16 +1239,13 @@
     "\n",
     "# Check and print performance of the regression model\n",
     "print(f'Test Score (R-Squared): {fine_tuned_model4.score(X_test, y_test)}')\n",
-    "print(f'MSE: {mean_squared_error(y_test, y_pred)}')\n",
     "print(f'MAE: {mean_absolute_error(y_test, y_pred)}')\n",
-    "print(f'RMSE: {np.sqrt(mean_absolute_error(y_test, y_pred))}')\n",
-    "\n",
-    "print(f'Size of prediction: {len(y_pred)}')"
+    "print(f'RMSE: {np.sqrt(mean_absolute_error(y_test, y_pred))}')"
    ]
   },
   {
    "cell_type": "code",
-   "execution_count": 68,
+   "execution_count": 59,
    "id": "fe1a5c07-b3ab-421d-b2af-980cbeea4814",
    "metadata": {},
    "outputs": [
@@ -1272,7 +1255,7 @@
        "['my_model.pkl']"
       ]
      },
-     "execution_count": 68,
+     "execution_count": 59,
      "metadata": {},
      "output_type": "execute_result"
     }
@@ -1285,7 +1268,7 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 70,
+   "execution_count": 61,
    "id": "05ddbbd0-fe64-41a5-b23f-0a66fe5a57ff",
    "metadata": {},
    "outputs": [
@@ -1298,7 +1281,7 @@
        "      dtype='object')"
       ]
      },
-     "execution_count": 70,
+     "execution_count": 61,
      "metadata": {},
      "output_type": "execute_result"
     }
